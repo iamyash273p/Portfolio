@@ -6,7 +6,7 @@ This portfolio showcases my work, skills, and experience as an Automation Develo
 ---
 
 ## 🌐 Live Website
-👉 View Portfolio
+👉 [View Portfolio](https://iamyash273p.github.io/Portfolio/)
 
 ---
 
