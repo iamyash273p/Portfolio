@@ -52,8 +52,10 @@ background:rgba(11,18,32,0.7);
 backdrop-filter: blur(8px);
 border-bottom:1px solid rgba(255,255,255,0.08);
 width:100%;
-max-width:1400px;
-margin:0 auto;
+max-width:100%;
+margin:0;
+padding-left:40px;
+padding-right:40px;
 }
 
 .logo{
@@ -518,7 +520,9 @@ transform:translateY(0);
   position:absolute;
   top:-10%;
   font-size: clamp(18px, 2.5vw, 42px);
-  color:rgba(255,255,255,0.18);
+  color:rgba(255,255,255,0.45);
+  opacity: 1;
+  filter: drop-shadow(0 0 6px rgba(255,255,255,0.25));
   text-shadow: none;
   animation: snowFall linear infinite;
   will-change: transform, opacity;
@@ -539,7 +543,7 @@ transform:translateY(0);
     transform: translateY(-150px) translateX(0) rotate(0deg);
     opacity:0;
   }
-  10%{ opacity:0.3; }
+  10%{ opacity:0.6; }
   50%{
     transform: translateY(50vh) translateX(40px) rotate(180deg);
   }
